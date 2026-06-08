@@ -3,7 +3,7 @@
 // Toki Pona uses structural particles (li, e, pi, la, o) instead of inflection.
 // The particles are filed under "determiners" since the schema has no particle class;
 // their true inventory is documented below.
-import type { RawBundle } from "@561-group/panini/types";
+import type { RawBundle } from "@561-group/language-parsing/types";
 
 // The five structural particles of Toki Pona (documented for reference):
 // li — separates subject from predicate (not used after mi/sina)

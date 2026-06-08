@@ -1,17 +1,18 @@
 {
-  "name": "@561-group/panini-tokipona",
+  "name": "@561-group/language-parsing-tokipona",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "description": "Toki Pona as a syntaxis fiber-algebra bundle — SVO, isolating (no morphology), particles li/e/pi; a whole language in one small data file.",
+  "description": "language-parsing-tokipona: Toki Pona as a language-parsing fiber-algebra bundle; SVO, isolating morphology, and structural particles.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emsenn/panini-tokipona.git"
+    "url": "git+https://github.com/emsenn/language-parsing-tokipona.git"
   },
   "engines": {
     "node": ">=22.18"
   },
   "scripts": {
+    "test": "node --test \"src/**/*.test.ts\"",
     "check": "tsc --noEmit"
   },
   "exports": {
@@ -20,7 +21,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@561-group/panini": "workspace:*"
+    "@561-group/language-parsing": "0.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
