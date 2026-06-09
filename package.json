@@ -21,7 +21,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@561-group/language-parsing": "0.0.1"
+    "@561-group/language-parsing": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
