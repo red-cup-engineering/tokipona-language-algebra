@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { tag } from "@561-group/language-parsing";
-import bundle from "./index.ts";
+import bundle from "./index.mjs";
 
 test("language-parsing-tokipona carries an isolating bundle with structural particles", () => {
   assert.equal(bundle.wordOrder, "SVO");
