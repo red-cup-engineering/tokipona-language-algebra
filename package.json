@@ -1,12 +1,12 @@
 {
-  "name": "@561-group/language-parsing-tokipona",
+  "name": "@561-group/tokipona-language-topology",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "description": "language-parsing-tokipona: Toki Pona as a language-parsing fiber-algebra bundle; SVO, isolating morphology, and structural particles.",
+  "description": "tokipona-language-topology: Toki Pona as a language-topology fiber-algebra bundle; SVO, isolating morphology, and structural particles.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emsenn/language-parsing-tokipona.git"
+    "url": "git+https://github.com/emsenn/tokipona-language-topology.git"
   },
   "engines": {
     "node": ">=22.18"
@@ -38,7 +38,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@561-group/language-parsing": "workspace:*"
+    "@561-group/language-topology": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

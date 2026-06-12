@@ -1,5 +1,5 @@
 // index.ts — Toki Pona syntaxis bundle, compiled and ready to use.
-import { load } from "@561-group/language-parsing/bundle";
+import { load } from "@561-group/language-topology/bundle";
 import { rawBundle } from "./bundle.mjs";
 
 export { rawBundle } from "./bundle.mjs";

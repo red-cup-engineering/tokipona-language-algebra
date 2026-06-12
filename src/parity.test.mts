@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { tag } from "@561-group/language-parsing";
+import { tag } from "@561-group/language-topology";
 import bundle from "./index.mjs";
 
 test("language-parsing-tokipona carries an isolating bundle with structural particles", () => {
