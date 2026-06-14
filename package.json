@@ -1,12 +1,12 @@
 {
-  "name": "@561-group/tokipona-language-topology",
+  "name": "@emsenn/tokipona-language-algebra",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "description": "tokipona-language-topology: Toki Pona as a language-topology fiber-algebra bundle; SVO, isolating morphology, and structural particles.",
+  "description": "tokipona-language: Tokipona as a language fiber — its lexicon, morphology, reference, attachment and segmentation tables, compiled and ready for the settlement engine.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emsenn/tokipona-language-topology.git"
+    "url": "git+https://github.com/emsenn/tokipona-language.git"
   },
   "engines": {
     "node": ">=22.18"
@@ -38,7 +38,9 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@561-group/language-topology": "workspace:*"
+    "@emsenn/language-algebra": "workspace:*",
+    "@emsenn/language-topology": "workspace:*",
+    "@emsenn/language-codecs": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
