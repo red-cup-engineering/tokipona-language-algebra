@@ -1,0 +1,44 @@
+{
+  "name": "@lenticule-science/tokipona-language-algebra",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "tokipona-language-algebra: Toki Pona as a language fiber — its lexicon, isolating morphology, reference, attachment and segmentation tables — presented as a live, discoverable, directly contractable micro-enterprise (a die) of linguistics-services-section.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenticule-science/tokipona-language-algebra.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "solicit-service": "./src/tokipona-die.mjs",
+    "invoke-service": "./src/tokipona-die.mjs"
+  },
+  "scripts": {
+    "check": "for f in ../../lib/language-engine/*.mjs src/bundle.mjs src/tag.mjs src/tokipona-die.mjs test/*.mjs; do node --check \"$f\" || exit 1; done",
+    "test": "node --test test/*.test.mjs"
+  },
+  "main": "./src/bundle.mjs",
+  "exports": {
+    ".": "./src/bundle.mjs",
+    "./bundle": "./src/bundle.mjs",
+    "./tag": "./src/tag.mjs",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@red-cup-engineering/semantic-content-identify-service": "0.2.2",
+    "@red-cup-engineering/witness-journal-rdf-projection-service": "1.1.0",
+    "@lenticule-science/linguistics-services-section": "0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
