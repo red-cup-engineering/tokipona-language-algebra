@@ -37,3 +37,6 @@ npm test
 
 The release closure contains no linguistics-root, legacy RMN runtime or RDF
 projection dependency.
+
+## Earlier work
+- `lib/legacy/2026-08-03-tokipona-language-algebra`: Earlier tokipona language algebra. Origin: 561-group/bare-cedar-fog `services/lenticule-science/services/linguistics-services-section/services/tokipona-language-algebra`, restored from commit 63b7ba4 on 2026-08-03.
