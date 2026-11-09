@@ -2,7 +2,7 @@
   "name": "@lenticule-science/tokipona-language-algebra",
   "version": "0.1.4",
   "type": "module",
-  "description": "tokipona-language-algebra: Toki Pona as a language fiber — its lexicon, isolating morphology, reference, attachment and segmentation tables — presented as a live, discoverable, directly contractable micro-enterprise (a die) of linguistics-services-section.",
+  "description": "tokipona-language-algebra: Toki Pona as a language fiber — its lexicon, isolating morphology, reference, attachment and segmentation tables — presented as a live, discoverable, directly contractable micro-enterprise (a die) of linguistics-science-services-section.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/tokipona-language-algebra.git"
