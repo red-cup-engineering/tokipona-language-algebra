@@ -7,7 +7,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
-import { ACTIVITYSTREAMS_CONTEXT } from "@red-cup-engineering/activitypub-services-section/activitystreams";
+import { ACTIVITYSTREAMS_CONTEXT } from "@red-cup-engineering/activitypub-engineering-services-section/activitystreams";
 
 const DIE = fileURLToPath(new URL("../src/tokipona-die.mjs", import.meta.url));
 const ACTOR = "urn:ame:tokipona-language-algebra";
