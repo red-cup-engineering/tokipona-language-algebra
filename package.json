@@ -1,0 +1,45 @@
+{
+  "name": "@lenticule-science/tokipona-language-algebra",
+  "version": "0.1.7-dev.0",
+  "type": "module",
+  "description": "tokipona-language-algebra: Toki Pona as a language fiber — its lexicon, isolating morphology, reference, attachment and segmentation tables — presented as a live, discoverable, directly contractable micro-enterprise (a die) of linguistics-science-services-section.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/tokipona-language-algebra.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "solicit-service": "./src/tokipona-die.mjs",
+    "invoke-service": "./src/tokipona-die.mjs"
+  },
+  "main": "./src/bundle.mjs",
+  "exports": {
+    ".": "./src/bundle.mjs",
+    "./bundle": "./src/bundle.mjs",
+    "./tag": "./src/tag.mjs",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@red-cup-engineering/communicating": "^0.3.1",
+    "@red-cup-engineering/computer-code-engineering-services-section": "^0.2.1",
+    "@red-cup-engineering/computer-language-systems-engineering-services-section": "^0.1.8",
+    "@lenticule-science/latin-language-algebra": "^0.1.8",
+    "@red-cup-engineering/activitypub-engineering-services-section": "^0.11.6",
+    "@red-cup-engineering/computer-code-engine": "^0.1.9"
+  },
+  "files": [
+    "content",
+    "src/bundle.mjs",
+    "src/semantic-identity.mjs",
+    "src/tag.mjs",
+    "src/tokipona-die.mjs"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
